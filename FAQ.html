@@ -646,13 +646,13 @@
     <div class="container">
         <div class="row">
                 <div class="col-xl-4 faq1">
-                        <input class="faq_but1?raw=true" type="button" value="關於住房">
+                        <input class="faq_but1" type="button" value="關於住房">
                 </div>
                 <div class="col-xl-4 faq1">
-                        <input  class="faq_but2?raw=true" type="button" value="關於客房">                 
+                        <input  class="faq_but2" type="button" value="關於客房">                 
                 </div>
                 <div class="col-xl-4 faq1">
-                        <input  class="faq_but3?raw=true" type="button" value="關於交通">
+                        <input  class="faq_but3" type="button" value="關於交通">
                </div>
             </div>
         </div>
@@ -662,7 +662,7 @@
     <div class="container">
         <div class="row">
                 <div class="col-xl-12 faq1">
-                    <img class="img_faq"src="img\睡床.png" alt="">
+                    <img class="img_faq"src="img\睡床.png?raw=true" alt="">
                 </div>
         </div>
     </div>
@@ -861,7 +861,7 @@
         });
 
         $(".faq_but1").on("click",function(){
-            $(".img_faq").attr("src","img/睡床.png")
+            $(".img_faq").attr("src","img/睡床.png?raw=true")
             $(".list_top").attr("style","display:block")
             $(".list_top2").attr("style","display:none")
             $(".list_top3").attr("style","display:none")
@@ -871,7 +871,7 @@
     
 
         $(".faq_but2").on("click",function(){
-            $(".img_faq").attr("src","img/房屋.png");
+            $(".img_faq").attr("src","img/房屋.png?raw=true");
             $(".list_top").attr("style","display:none")
             $(".list_top2").attr("style","display:block")
             $(".list_top3").attr("style","display:none")
@@ -880,7 +880,7 @@
        
 
         $(".faq_but3").on("click",function(){
-            $(".img_faq").attr("src","img/座標.png")
+            $(".img_faq").attr("src","img/座標.png?raw=true")
             $(".list_top").attr("style","display:none")
             $(".list_top2").attr("style","display:none")
             $(".list_top3").attr("style","display:block")
